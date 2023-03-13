@@ -5,9 +5,11 @@
 
 .app {
   max-width: 400px;
-  margin: auto;
+  margin: 20px auto;
   padding: 1rem;
   text-align: center;
+  background:rgb(156, 210, 210);
+  border-radius: 10px;
 }
 
 .app .date {
