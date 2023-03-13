@@ -34,6 +34,7 @@ function App() {
     )
   }
 
+  // создаем переменные
   const date = new Date()
   // console.log(date)
   const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"]
@@ -57,7 +58,7 @@ function App() {
             <AiOutlinePlus className='icon' />
             <input
               value={input}
-              onChange={e => setInput(e.target.value)}
+              onChange={e => setInput(e.target.value)} //target value - текущее значение
               placeholder='Введите задачу'
               type="text" />
           </div>
