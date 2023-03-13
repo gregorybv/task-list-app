@@ -46,7 +46,7 @@ function App() {
         <h1><GiHornedHelm /> Powerlist</h1>
         {/* Создаем текущую дату */}
         <div className="date">
-          <p>{days[date.getDay()]}.</p>
+          <p>{days[date.getDay()]}</p>
           <p>{date.getDate()}</p>
           <p>{months[date.getMonth()]}</p>
           <p>{date.getFullYear()}</p>
@@ -71,7 +71,7 @@ function App() {
             </div>
           ))}
         </div>
-
+            {/* создаём счетчик задач */}
           <p className='length'>{(tasks < 1) ? 'У вас нет задач' : `Задач: ${tasks.length}`}</p>
       </div>
     </div>
